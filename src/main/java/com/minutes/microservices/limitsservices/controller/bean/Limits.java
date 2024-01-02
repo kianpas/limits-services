@@ -8,5 +8,5 @@ import lombok.Data;
 public class Limits {
 
     private int minimum;
-    private int maximun;
+    private int maximum;
 }

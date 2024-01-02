@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties("limits-service")
-@Data
-@AllArgsConstructor
+@Getter
+@Setter
 public class Configuration {
 
     private int minimum;
